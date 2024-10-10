@@ -1,0 +1,277 @@
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+
+p, label {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.bodyhome, .bodyinfo {
+    margin: 0;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'Sans-serif';
+    background-color: #051360;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyregistration {
+    margin: 0;
+    background-image: url(barskl.avif);
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyrd {
+    background-color: #051360;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 10px;
+    height: 640px;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 0;
+}
+
+.submit {
+    display: block;
+    margin: 0 auto;
+}
+
+.submit:hover {
+    background-color: green;
+}
+
+.top-nav-bar {
+    position: fixed;
+    overflow: hidden;
+    background-color: #003C71;
+    top: 0;
+    width: 100%;
+}
+
+.content2 {
+    background-color: black;
+}
+
+.container2 {
+    text-align: center;
+    margin-top: 170px;
+}
+
+.content2 table {
+    color: white;
+}
+
+.table, .th, .td, .tr {
+    border: 2px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top-nav-bar p {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'Sans-serif';
+    font-size: 35px;
+    padding: 20px;
+}
+
+.top-nav-bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top-nav-bar a.active {
+    background-color: #051360;
+    color: white;
+}
+
+.top-nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+}
+
+.menu ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    padding: 15px 20px;
+}
+
+.gala-night-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
+    height: 57%;
+}
+
+.content {
+    background-color: #0b0006;
+    color: #FFFFFF;
+}
+
+.home-title {
+    font-size: 34px;
+}
+
+.speech {
+    text-align: left;
+}
+
+.hwum-oc {
+    width: 15%;
+    height: 15%;
+    vertical-align: text-top;
+}
+
+.speech-name {
+    font-size: 30px;
+}
+
+.hwum-oc {
+    width: 405px;
+    height: 270px;
+}
+
+.container-1 {
+    position: center;
+}
+
+.row, .row-2, .row-3, .row-4 {
+    display: flex;
+    text-align: center;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: #003C71;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.e-mail-us a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.e-mail-us a:hover {
+    text-decoration: underline;
+}
+
+.footer-desc {
+    text-align: left;
+    font-size: 8px;
+}
+
+.inner-1, .inner-2, .inner-3, .inner-4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info {
+    margin: auto;
+    width: 68%;
+    height: 400px;
+    background-color: black;
+    padding: 10px;
+}
+
+.itinerary {
+    margin: auto;
+    width: 50%;
+    height: 400px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.itinerary h2 {
+    text-align: center;
+}
+
+.sklimg img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.dc {
+    display: flex;
+    justify-content: center;
+}
+
+.dc img {
+    width: 31%;
+    padding: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.gallery img {
+    width: 70%;
+    height: 400px;
+    padding: 10px;
+    position: relative;
+    object-fit: contain;
+}
+
+.gallery img:hover {
+    z-index: 9;
+    transform: scale(1.3);
+    transition: transform ease 0.5s;
+}
+
+.words {
+    text-align: center;
+}

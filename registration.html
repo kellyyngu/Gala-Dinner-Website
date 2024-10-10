@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bodyregistration">
+    <div class="top-nav-bar">
+        <div class="site-logo">
+            <a title="Heriot-Watt University Malaysia" href="https://www.hw.ac.uk/malaysia/">
+                <img src="https://my.hw.ac.uk/payments/faces/resources/HW_Logo_Negative.png" width="150px" height="70px">
+            </a>
+            <a title="Heriot-Watt University Malaysia" href="https://www.hw.ac.uk/malaysia/">
+                <img src="https://galanight.cz/wp-content/themes/galanight/images/logo.svg" width="150px" height="70px">
+            </a>
+            <p>Heriot Watt University Gala Night 2023</p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a title="home" href="home.html">Home</a></li>
+                <li><a title="Information" href="information.html">Information</a></li>
+                <li><a class="active" href="registration.html">Registration</a></li>
+                <li><a title="Participants" href="registrationdisplay.html">Participants</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <h1 class="heading">REGISTER HERE</h1>
+        <br>
+        <form method="post" action="registration.php">
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" required placeholder="Marcus">
+            <br><br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" required placeholder="Lau">
+            <br><br>
+            <label for="studentid">Student ID:</label>
+            <input type="text" name="studentid" required placeholder="H00418790">
+            <br><br>
+            <label for="contact">Contact:</label>
+            <input type="contact" name="contact" required placeholder="Valid contact number">
+            <br><br>
+            <label for="email">Email Address:</label>
+            <input type="text" name="email" required placeholder="kn2020@hw.ac.uk">
+            <br><br>
+            <label for="cohort">Cohort:</label>
+            <input type="text" name="cohort" required placeholder="Year 1 Actuarial Science">
+            <br><br><br><br><br>
+            <input class="submit" type="submit" name="submit" value="Register">
+        </form>
+    </div>
+    <div class="footer">
+        <div class="widgets">Heriot-Watt University Malaysia 2023® All Rights Reserved.</div>
+        <div class="linking">https://www.hw.ac.uk/malaysia</div>
+        <div class="icons">
+            <ul>
+                <a href="https://www.facebook.com/hwumalaysia?locale=ms_MY">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" width="2.5%" height="2.5%">
+                </a>
+                <a href="https://www.instagram.com/heriotwattmalaysia/?hl=en">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="2.5%" height="2.5%">
+                </a>
+                <a href="https://twitter.com/HWUMalaysia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png?20220821125553" width="2.5%" height="2.5%">
+                </a>
+            </ul>
+            <div class="e-mail-us">
+                <a href="mailto:hwum@hw.ac.uk">Email us!</a>
+            </div>
+            <div class="footer-desc">
+                <p>Fancy advertising to our users? Visit our Advertising section</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
